@@ -1,26 +1,97 @@
 {
-  "app": {
-    "title": "Psychological Assessment Toolkit",
-    "window_width": 1200,
-    "window_height": 800,
-    "output_folder": "./output"
-  },
+    "app": {
+        "title": "Psychological Assessment Toolkit",
+        "window_width": 1600,
+        "window_height": 950,
+        "output_folder": "./output"
+    },
 
-  "fonts": {
-    "family": "Arial",
-    "question_size": 12,
-    "option_size": 11,
-    "instruction_size": 12
-  },
+    "fonts": {
+        "family": "Arial",
+        "question_size": 12,
+        "option_size": 10,
+        "instruction_size": 12
+    },
 
-  "questionnaires": [
-    {"file": "custom_sample_1", "type": "likert", "display": "vertical"},
-    {"file": "custom_sample_2", "type": "multi_statement", "display": "vertical"},
-    {"file": "custom_sample_3", "type": "multi_statement", "display": "vertical"},
-    {"file": "custom_sample_4", "type": "likert", "display": "vertical"}
-  ],
+    "questionnaires": [
+        {
+            "file": "stai_state",
+            "id": "STAI_Pre",
+            "name": "STAI-S",
+            "type": "likert",
+            "display": "horizontal",
+            "has_condition": false
+        },
 
-  "credits": [
-    "credits"
-  ]
+        {
+            "file": "embodiment_questionnaire",
+            "id": "Embodiment_C1",
+            "name": "Embodiment Questionnaire",
+            "type": "likert",
+            "display": "horizontal",
+            "has_condition": true
+        },
+        {
+            "file": "embodiment_questionnaire",
+            "id": "Embodiment_C2",
+            "name": "Embodiment Questionnaire",
+            "type": "likert",
+            "display": "horizontal",
+            "has_condition": true
+        },
+        {
+            "file": "embodiment_questionnaire",
+            "id": "Embodiment_C3",
+            "name": "Embodiment Questionnaire",
+            "type": "likert",
+            "display": "horizontal",
+            "has_condition": true
+        },
+        {
+            "file": "embodiment_questionnaire",
+            "id": "Embodiment_C4",
+            "name": "Embodiment Questionnaire",
+            "type": "likert",
+            "display": "horizontal",
+            "has_condition": true
+        },
+        {
+            "file": "embodiment_questionnaire",
+            "id": "Embodiment_C5",
+            "name": "Embodiment Questionnaire",
+            "type": "likert",
+            "display": "horizontal",
+            "has_condition": true
+        },
+
+        {
+            "file": "stai_state",
+            "id": "STAI_Post",
+            "name": "STAI-S",
+            "type": "likert",
+            "display": "horizontal",
+            "has_condition": false
+        },
+
+        {
+            "file": "maia2",
+            "id": "MAIA2",
+            "name": "MAIA-2",
+            "type": "likert",
+            "display": "horizontal",
+            "has_condition": false
+        },
+        {
+            "file": "desii",
+            "id": "DESII",
+            "name": "DES-II",
+            "type": "likert",
+            "display": "horizontal",
+            "has_condition": false
+        }
+    ],
+
+    "credits": [
+        "credits"
+    ]
 }

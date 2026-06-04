@@ -1,4 +1,5 @@
 # Psychological Assessment Toolkit
+
 A **Python-based GUI system** for administering psychological questionnaires digitally in research studies.
 The toolkit dynamically loads questionnaires from **JSON configuration files**, allowing researchers to easily add, modify, or customize assessments without changing the program code.
 
@@ -158,7 +159,7 @@ Utility functions including:
 Controls which questionnaires are loaded and general application settings.
 
 
-# Questionnaires
+# Questionnaire System
 
 All questionnaires are stored as **JSON files** inside the `questionnaires/` directory.
 
@@ -299,7 +300,7 @@ If the scale is:
 1–5
 ```
 
-The reverse score is calculated as:
+the reverse score is calculated as:
 
 ```
 new_score = (max + 1) − original_score
@@ -432,27 +433,36 @@ Researchers are free to modify and extend the toolkit for academic or research p
 
 ## Citation
 
-Bhattacharya, A.; Dewangan, P (2026).
-Psychological Assessment Toolkit: Python-based toolkit for administering psychological questionnaires
+Bhattacharya, A. (2026).
+Psychological Assessment Toolkit: A modular Python system
+for administering psychological questionnaires.
 https://github.com/BhattacharyaArijit/psychology-assessment-toolkit.
 
 ## BibTeX version:
 
 @software{bhattacharya_psych_toolkit_2026,
-  author = {Bhattacharya, Arijit}, {Dewangan, Parmeshwar},
+  author = {Bhattacharya, Arijit},
   title = {Psychological Assessment Toolkit},
   year = {2026},
   url = {https://github.com/BhattacharyaArijit/psychology-assessment-toolkit},
   note = {Python-based toolkit for administering psychological questionnaires}
 }
-## Contribution
 
-Arijit Bhattacharya, Ashoka University
-Parmeshwar Dewangan, Ashoka University
-
-## Collaboration
+## Contribution and Collaboration
 
 Contributions and collaborations are welcome. This project is intended to grow as an open, research-oriented toolkit for administering psychological questionnaires and behavioral assessments. If you are interested in collaborating, contributing code, or using this toolkit for research projects, please feel free to reach out.
+
+**Contact:**
+Arijit Bhattacharya
+Ph.D. Candidate, Department of Psychology and Cognitive Sciences
+Ashoka University
+
+[arijit.bhattacharya_phd23@ashoka.edu.in](mailto:arijit.bhattacharya_phd23@ashoka.edu.in)
+
+Before submitting major changes, it is recommended to first open an issue describing the proposed feature or improvement so that it can be discussed and aligned with the project roadmap.
+
+
+
 
 #### Research Use & Ethics Disclaimer
 
@@ -468,7 +478,8 @@ Users of this toolkit are **solely responsible** for ensuring that they:
 
 The author of this toolkit **does not provide authorization to use any psychological instruments included as examples**, and **assumes no responsibility or liability for the misuse of copyrighted or restricted questionnaires**.
 
-This toolkit provides a **technical platform for digital administration of assessments** and should be treated as a **software tool rather than a source of licensed psychological instruments**.
+This toolkit simply provides a **technical platform for digital administration of assessments** and should be treated as a **software tool rather than a source of licensed psychological instruments**.
+
 
 
 ## Clinical Use Disclaimer
